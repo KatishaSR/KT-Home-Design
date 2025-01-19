@@ -40,12 +40,28 @@ position: fixed;
     margin: 0 auto;
     padding-top: 12px;
     text-align:center;
-} #navbar
+} 
 
-{ background-color:aquamarine;    
+.navbar
+
+{ background:rgb(193, 216, 212)!important;
+
+    
+    
      
 }
 
+.container-fluid{
+
+    color:rgb(4, 46, 46);
+    font-weight: bold;
+    padding-left: 33%;
+}
+
+.navbar{
+   
+
+}
 #main { 
    
     width: 100%;
