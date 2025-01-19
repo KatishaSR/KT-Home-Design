@@ -1,0 +1,19 @@
+{
+  "name": "preentrega-04-diciembre-2024-desarrollo-web",
+  "version": "1.0.0",
+  "description": "Descubre una colección única de muebles y accesorios de hogar diseñados para transformar cualquier espacio en un refugio moderno y funcional",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatishaSR/KT-Home-Design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatishaSR/KT-Home-Design/issues"
+  },
+  "homepage": "https://github.com/KatishaSR/KT-Home-Design#readme"
+}
