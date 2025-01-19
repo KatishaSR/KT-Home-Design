@@ -10,7 +10,6 @@ li {list-style: none;
     display: inline-block;
     text-decoration-line:inherit;
     
-    
 
 }
 /*ESTILOS BODY*/
@@ -36,16 +35,22 @@ position: fixed;
 #nav ul {margin: 10 auto;
 }
 /*ESTILOS MAIN*/
-#main {max: width 1400px; 
+#main {max: width 100px; 
     height:1000px
     margin: 0 auto;
-    padding-top: 125px;
+    padding-top: 12px;
     text-align:center;
+} #navbar
+
+{ background-color:aquamarine;    
      
 }
-.mainSofa {
-    width:400px ;
-    text-align: justify;
+
+#main { 
+   
+    width: 100%;
+    text-align: center;
+    position:static;
 
 }
 /*ESTILOS FOOTER*/
