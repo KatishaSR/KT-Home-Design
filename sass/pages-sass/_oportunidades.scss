@@ -20,7 +20,11 @@ body {
   line-height: 1.7;
   padding: 3rem;
   box-sizing: border-box;
-}
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 
 .grids {
   max-width: 136rem;
@@ -97,6 +101,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card__side--back {
@@ -105,6 +112,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .showGreen {
@@ -160,8 +170,10 @@ body {
   background-image: linear-gradient(
       rgba(175, 125, 142, 0.6),
       rgba(206, 175, 175, 0.6) 
-    ), url("https://m.media-amazon.com/images/I/61ECPpsOTcS._AC_UF894,1000_QL80_.jpg")
-     
+    ), url("https://m.media-amazon.com/images/I/61ECPpsOTcS._AC_UF894,1000_QL80_.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #front-2 {
@@ -170,6 +182,9 @@ body {
       rgba(54, 176, 246, 0.9)
     ),
     url("https://media.admagazine.com/photos/6532c06f1b48004d16e76124/4:3/w_2664,h_1998,c_limit/cortinas-en-casa.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #front-3 {
@@ -178,6 +193,9 @@ body {
       rgba(178, 178, 220, 0.9)
     ),
     url("https://m.media-amazon.com/images/I/81F1+x30vxL._AC_SL1200_.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #front-4 {
@@ -186,6 +204,9 @@ body {
       rgba(6, 66, 48, 0.9)
     ),
     url("https://m.media-amazon.com/images/I/81WUBTGGhLL._AC_UF894,1000_QL80_.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #front-5 {
@@ -194,6 +215,9 @@ body {
     rgba(238, 210, 100, 0.9)
     ),
     url("https://m.media-amazon.com/images/I/719YQnirf-L.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #front-6 {
@@ -202,6 +226,9 @@ body {
       rgba(20, 20, 20, 0.6)
     ),
     url("https://m.media-amazon.com/images/I/61jKW0KJP-L.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #front-7 {
@@ -210,6 +237,9 @@ body {
       rgba(14, 46, 65, 0.9)
     ),
     url("https://www.decoora.com/wp-content/uploads/2019/11/lampara-pie-salon-tripode.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Back */
@@ -220,6 +250,9 @@ body {
       rgba(241, 212, 212, 0.6)
     ),
     url("https://m.media-amazon.com/images/I/61ECPpsOTcS._AC_UF894,1000_QL80_.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #back-2 {
@@ -228,6 +261,9 @@ body {
       rgba(14, 46, 65, 0.9)
     ),
     url("https://media.admagazine.com/photos/6532c06f1b48004d16e76124/4:3/w_2664,h_1998,c_limit/cortinas-en-casa.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #back-3 {
@@ -235,7 +271,10 @@ body {
       rgba(148, 148, 235, 0.9),
       rgba(192, 192, 226, 0.9)
     ),
-    url("https://m.media-amazon.com/images/I/81F1+x30vxL._AC_SL1200_.jpg")
+    url("https://m.media-amazon.com/images/I/81F1+x30vxL._AC_SL1200_.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #back-4 {
@@ -244,6 +283,9 @@ body {
       rgba(6, 66, 48, 0.9)
     ),
     url("https://m.media-amazon.com/images/I/81WUBTGGhLL._AC_UF894,1000_QL80_.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #back-5 {
@@ -252,6 +294,9 @@ body {
       rgba(238, 210, 100, 0.9)
     ),
     url("https://m.media-amazon.com/images/I/719YQnirf-L.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #back-6 {
@@ -260,6 +305,9 @@ body {
       rgba(20, 20, 20, 0.6)
     ),
     url("https://content.revistainteriores.es/medio/2023/12/12/velas-aromaticas-artesanales_12a5b249_231212162955_1280x794.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #back-7 {
@@ -268,6 +316,9 @@ body {
       rgba(14, 46, 65, 0.9)
     ),
     url("https://www.decoora.com/wp-content/uploads/2019/11/lampara-pie-salon-tripode.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 @media screen and (min-width: 1024px) {
