@@ -1,11 +1,11 @@
 /*ESTILOS HEADER */
 
 #header {width: 100%;
-    height: 10px;
+    height: 100%;
 background-color: rgb(255, 255, 255);
 background-size: cover; 
 text-align: center;
-position: fixed;
+position:static;
 }
 #nav {text-align: center;
    
@@ -14,8 +14,8 @@ position: fixed;
     
 
 }
-#nav ul {margin: 1 auto;
-    position: inherit;
+#nav ul {margin: 0 auto;
+    position:relative;
 }
 /*---------------- INICIA MENU NAV egador---------------- */ 
 .navbar-nav .nav-link {
